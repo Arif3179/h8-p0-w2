@@ -1,4 +1,0 @@
-SET massaBenda WITH VALUE OF 600
-SET percepatan WITH VALUE OF 2
-CALCULATE resultanGaya WITH result of massaBenda TIMES percepatan
-DISPLAY resultanGaya

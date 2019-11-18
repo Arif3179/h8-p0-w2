@@ -1,9 +1,0 @@
-SET kukuSiswa
-SET siswa 
-FOR siswa from 1 to 40
-    IF kukuSiswa = panjang
-        INITIATE hukuman
-    ELSE
-        INITIATE pujian
-    ENDIF
-ENDFOR

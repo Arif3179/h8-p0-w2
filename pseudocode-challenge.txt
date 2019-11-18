@@ -1,0 +1,32 @@
+// Hukum-2 newton
+SET massaBenda WITH VALUE OF 600
+SET percepatan WITH VALUE OF 2
+CALCULATE resultanGaya WITH result of massaBenda TIMES percepatan
+DISPLAY resultanGaya
+
+// Mencari Tahun Kabisat
+SET tahun WITH ANY VALUE
+IF (tahun %4 EQUAL WITH 0 AND tahun %100 NOT EQUAL WITH 0) OR (tahun %4 EQUAL WITH 0 AND tahun %100 EQUAL WITH 0 AND tahun %400 EQUAL WITH 0) THEN
+    DISPLAY "Tahun Kabisat"
+ELSE
+    DISPLAY "Bukan Tahun Kabisat"
+ENDIF
+
+// Laundry Day 
+SET jumlahPakaian 
+    IF jumlahPakaian = 20 THEN
+        INITIATE Laundry 
+    ELSE
+        INCREMENT Pakaian
+    ENDIF    
+
+// Periksa Kuku
+SET kukuSiswa
+SET siswa 
+FOR siswa from 1 to 40
+    IF kukuSiswa = panjang
+        INITIATE hukuman
+    ELSE
+        INITIATE pujian
+    ENDIF
+ENDFOR
