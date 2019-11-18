@@ -1,0 +1,10 @@
+SET tahun WITH ANY VALUE
+IF (tahun %4 EQUAL WITH 0 AND tahun %100 NOT EQUAL WITH 0) OR (tahun %4 EQUAL WITH 0 AND tahun %100 EQUAL WITH 0 AND tahun %400 EQUAL WITH 0) THEN
+    DISPLAY "Tahun Kabisat"
+ELSE
+    DISPLAY "Bukan Tahun Kabisat"
+ENDIF
+
+
+
+

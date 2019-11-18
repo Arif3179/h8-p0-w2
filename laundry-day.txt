@@ -1,0 +1,6 @@
+SET jumlahPakaian 
+    IF jumlahPakaian = 20 THEN
+        INITIATE Laundry 
+    ELSE
+        INCREMENT Pakaian
+    ENDIF    
