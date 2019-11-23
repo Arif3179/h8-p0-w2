@@ -1,6 +1,9 @@
 function balikKata(kata) {
-    return kata.split("").reverse().join("");
-    // you can only write your code here!
+  var IndexTerakhir = kata.length - 1;
+  var terbalik = '';
+  for (var i= IndexTerakhir; i >= 0; i--){
+      terbalik += kata[i];
+  } return terbalik;
   }
   
   // TEST CASES
